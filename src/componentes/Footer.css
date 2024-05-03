@@ -1,0 +1,41 @@
+.Footer {
+    background-clip: content-box;
+    background-color: rgb(8, 68, 231);
+}
+
+
+.sesi {
+    height: 30px;
+    width: 70px; /* Defina a largura desejada para o contêiner */
+    bottom: -12px;
+    position: relative;
+    right:420px;
+}
+
+.sesi img {
+    width: auto; /* Ajusta a largura da imagem para preencher o contêiner */
+    height: 100%; /* Deixe a altura ajustar automaticamente para manter a proporção */
+}
+
+.textao{
+    position: relative;
+    bottom: 2px;
+    font-size: 10px;
+}
+
+.footer-itens{
+    display: flex;
+    margin-right: 20px;
+    justify-content: center;
+    color: white;
+    font-weight: bold;
+}
+
+.footer-itens {
+    list-style-type: none;
+}
+
+.texto{
+    position: relative;
+    left: 7.5em;
+}
